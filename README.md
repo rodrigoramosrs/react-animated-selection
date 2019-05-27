@@ -1,2 +1,3 @@
 # react-animated-selection
-Animated Selection With React JS
+
+Describe react-animated-selection here.
