@@ -14,10 +14,26 @@ class Demo extends Component {
   render() {
     return (
       <div>
-        <div style={{  padding: "12px" }}>
+        <div style={{ padding: "12px" }}>
           <h1>React react animated selection Demo</h1>
         </div>
-        <ReactAnimatedSelection />
+        <div>
+          <ReactAnimatedSelection title="Closed demo 1">
+            <div>
+             TESTE 
+              <input type="button" value="botao" />
+            </div>
+          </ReactAnimatedSelection>
+        </div>
+        <div>
+          <ReactAnimatedSelection title="Closed demo 2">
+            demo text. demo text. demo text. demo text. demo text. demo text.
+            demo text. demo text. demo text. demo text. demo text. demo text.
+            demo text. demo text. demo text. demo text. demo text. demo text.
+            demo text. demo text. demo text. demo text. demo text. demo text.
+            demo text. demo text. demo text.
+          </ReactAnimatedSelection>
+        </div>
       </div>
     );
   }
